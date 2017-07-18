@@ -1,0 +1,22 @@
+{
+  "name": "liftjsbaseproject",
+  "version": "1.0.0",
+  "description": "Base LiftJS project for quick deploy",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/libre-informatique/LiftJSBaseProject.git"
+  },
+  "author": "",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/libre-informatique/LiftJSBaseProject/issues"
+  },
+  "homepage": "https://github.com/libre-informatique/LiftJSBaseProject#readme",
+  "dependencies": {
+    "LiftJS": "github:libre-informatique/LiftJS"
+  }
+}
