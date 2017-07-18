@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" type="text/css" href="LiftJS/dist/liftJs.min.css">
+        <title></title>
+
+        <meta name="theme-color" content="#3685b6">
+    </head>
+    <body>
+        <div id="app">
+            <div class="content"></div>
+        </div>
+
+        <script src="LiftJS/js/libs/jquery-3.2.1.min.js"></script>
+        <script src="LiftJS/js/libs/handlebars.min.js"></script>
+        <script src="LiftJS/js/libs/materialize.min.js"></script>
+        <script src="LiftJS/js/libs/moment-with-locales.min.js"></script>
+
+        <script type="text/javascript" src="LiftJS/dist/liftJs.min.js"></script>
+        <script type="text/javascript" src="LiftJS/dist/modules/baseUi/baseUi.min.js"></script>
+        <script type="text/javascript" src="js/home/home.js"></script>
+
+        <script type="text/javascript">
+            // Set your custom host if needed (without trailing slash)
+            app.config.host = "http://liftjsbaseproject.local";
+            // Set your custom parameters.json path
+            app.config.parametersPath = "/parameters.json";
+
+            // START APP
+            $(document).ready(app.init());
+        </script>
+    </body>
+</html>
